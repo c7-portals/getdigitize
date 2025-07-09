@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Primary Meta Tags -->
+    <title>Free AI-Powered Website Analysis Tools</title>
+    <meta name="title" content="Free AI-Powered Website Analysis Tools">
+    <meta name="description"
+        content="PingUtil provides completely free AI-powered tools for website SEO, performance, security, and accessibility analysis. Get instant, professional-grade insights without registration.">
+    <meta name="keywords"
+        content="website analysis, SEO audit, website performance, AI website tools, security scan, mobile responsiveness, free website checker, PingUtil">
+    <meta name="author" content="PingUtil Team">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.pingutil.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.pingutil.com/">
+    <meta property="og:title" content="Free AI-Powered Website Analysis Tools">
+    <meta property="og:description"
+        content="Get comprehensive SEO, performance, security, and accessibility reports for any website. 100% free and powered by AI — no limits or registration required.">
+    <meta property="og:image" content="https://www.pingutil.com/images/og-image.png">
+    <meta property="og:site_name" content="PingUtil">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.pingutil.com/">
+    <meta name="twitter:title" content="Free AI-Powered Website Analysis Tools">
+    <meta name="twitter:description"
+        content="Instant SEO, performance, and security audits with AI-powered insights. All tools are completely free.">
+    <meta name="twitter:image" content="https://www.pingutil.com/images/twitter-image.png">
+    <meta name="twitter:site" content="@pingutil">
+    <meta name="twitter:creator" content="@pingutil">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "PingUtil",
+      "url": "https://www.pingutil.com",
+      "description": "PingUtil is a free AI-powered website analysis platform offering SEO audits, performance optimization, security scanning, and more.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "PingUtil",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.pingutil.com/images/logo.png"
+        }
+      },
+      "sameAs": [
+        "https://twitter.com/pingutil",
+        "https://github.com/pingutil",
+        "https://linkedin.com/company/pingutil"
+      ]
+    }
+    </script>
+
+    <!-- Theme & Branding -->
+    <meta name="theme-color" content="#000000">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="dist/output.css">
+    <!-- <script>
+        // Replace existing CSS link with one that includes a timestamp
+        window.onload = function () {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = 'dist/output.css?v=' + new Date().getTime();
+            document.head.appendChild(link);
+        };
+    </script> -->
+    <script defer>
+        // Toggle mobile menu and icon
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggleButton = document.getElementById("mobile-menu-toggle");
+            const mobileMenu = document.getElementById("mobile-menu");
+            const icon = document.getElementById("menu-icon");
+
+            toggleButton.addEventListener("click", () => {
+                mobileMenu.classList.toggle("hidden");
+
+                // Toggle between ☰ and ✕
+                if (icon.textContent === "☰") {
+                    icon.textContent = "✕";
+                } else {
+                    icon.textContent = "☰";
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header
+        class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50 transition-all duration-300"
+        id="header">
+        <div class="max-w-6xl mx-auto lg:px-5">
+            <div class="flex justify-between items-center py-4 px-5 lg:px-0">
+                <a href="/" class="flex items-center text-2xl font-bold text-gray-900 no-underline">
+                    <div class="w-8 h-8 mr-2 bg-gray-900 rounded-full flex items-center justify-center">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                        </svg>
+                    </div>
+                    PingUtil
+                </a>
+
+                <nav class="flex items-center gap-8">
+                    <!-- Desktop Menu -->
+                    <ul class="hidden md:flex list-none gap-8">
+                        <li><a href="#features"
+                                class="no-underline text-gray-900 font-medium hover:text-gray-700 transition-colors">Features</a>
+                        </li>
+                        <li><a href="#tools"
+                                class="no-underline text-gray-900 font-medium hover:text-gray-700 transition-colors">Tools</a>
+                        </li>
+                        <li><a href="#how-it-works"
+                                class="no-underline text-gray-900 font-medium hover:text-gray-700 transition-colors">How
+                                It Works</a>
+                        </li>
+                        <li><a href="/blog"
+                                class="no-underline text-gray-900 font-medium hover:text-gray-700 transition-colors">Blog</a>
+                        </li>
+                    </ul>
+
+                    <!-- Toggle Button -->
+                    <button id="mobile-menu-toggle"
+                        class="md:hidden bg-none border-none text-2xl cursor-pointer focus:outline-none"
+                        aria-label="Toggle mobile menu">
+                        <span id="menu-icon">☰</span>
+                    </button>
+                </nav>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden py-4 px-5 lg:px-0 border-t border-gray-200">
+                <ul class="flex flex-col gap-4">
+                    <li><a href="#features"
+                            class="block text-gray-900 font-medium hover:text-gray-700 transition-colors">Features</a>
+                    </li>
+                    <li><a href="#tools"
+                            class="block text-gray-900 font-medium hover:text-gray-700 transition-colors">Tools</a></li>
+                    <li><a href="#how-it-works"
+                            class="block text-gray-900 font-medium hover:text-gray-700 transition-colors">How It
+                            Works</a></li>
+                    <li><a href="/blog"
+                            class="block text-gray-900 font-medium hover:text-gray-700 transition-colors">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-gray-50 to-gray-100 py-12 lg:py-24 mt-[65px] relative overflow-hidden"
+        id="hero">
+        <div class="max-w-6xl mx-auto px-5">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 text-gray-900">Free AI-Powered Website<br
+                        class="hidden lg:block" /> Analysis Tools</h1>
+                <p class="text-xl mb-8 max-w-3xl mx-auto text-gray-600">Get comprehensive SEO, security, and performance
+                    analysis for
+                    any website in seconds. All our AI-driven tools are completely free with no limits or registration
+                    required.</p>
+
+                <div class="flex justify-center flex-wrap gap-4 mt-8 text-left text-gray-500 mx-auto">
+
+                    <div class="flex items-center gap-3 ">
+                        <span class="text-green-400 font-medium text-xl">✓</span>
+                        <span>Free SEO Analysis & Optimization</span>
+                    </div>
+                    <div class="flex items-center gap-3  ">
+                        <span class="text-green-400 font-medium text-xl">✓</span>
+                        <span>Free Security Vulnerability Scanning</span>
+                    </div>
+                    <div class="flex items-center gap-3  ">
+                        <span class="text-green-400 font-medium text-xl">✓</span>
+                        <span>Free Performance & Speed Testing</span>
+                    </div>
+                    <div class="flex items-center gap-3  ">
+                        <span class="text-green-400 font-medium text-xl">✓</span>
+                        <span>Free Mobile Responsiveness Check</span>
+                    </div>
+                    <div class="flex items-center gap-3  ">
+                        <span class="text-green-400 font-medium text-xl">✓</span>
+                        <span>AI-Powered Recommendations</span>
+                    </div>
+                </div>
+                <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center"><a
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-gray-950 text-white hover:bg-gray-900 h-14 rounded-md text-lg px-8 py-4 min-w-[200px]"
+                        href="/">Analyze Free</a></div>
+                <!-- <div class="bg-white p-8 rounded-2xl shadow-2xl mt-12 max-w-2xl mx-auto" id="hero-cta">
+                    <div class="flex flex-col md:flex-row gap-4 mb-4">
+                        <input type="url"
+                            class="flex-1 p-4 border-2 border-gray-200 rounded-lg text-base transition-colors bg-white text-gray-900 focus:outline-none focus:border-gray-900 focus:ring-4 focus:ring-gray-900/10"
+                            placeholder="Enter Website URL (e.g., https://example.com)" id="urlInput">
+                        <button
+                            class="bg-gray-900 text-white px-8 py-4 border-none rounded-lg text-base font-semibold cursor-pointer transition-all duration-300 whitespace-nowrap hover:bg-gray-800 hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
+                            onclick="analyzeWebsite()">
+                            <span id="analyzeText">Analyze Free</span>
+                            <span id="loadingSpinner"
+                                class="inline-block w-5 h-5 border-3 border-white/30 rounded-full border-t-white animate-spin hidden"></span>
+                        </button>
+                    </div>
+                    <p class="text-gray-600 text-sm text-center">No registration required • Results in 30 seconds • 100%
+                        Free</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-12 lg:py-20" id="features">
+        <div class="max-w-6xl mx-auto px-5">
+            <h2 class="text-center text-3xl lg:text-4xl font-bold mb-4 text-gray-900">Comprehensive Website Analysis
+                Tools</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Our AI-powered platform provides
+                professional-grade analysis across all critical aspects of your website performance.</p>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-md text-center transition-all duration-300 border border-gray-200 hover:-translate-y-1 hover:shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mx-auto mb-6 text-2xl">
+                        🔍</div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Advanced SEO Audit</h3>
+                    <p class="text-gray-600 leading-relaxed">Comprehensive SEO analysis including meta tags, keywords,
+                        content structure, and technical SEO factors with AI-powered recommendations.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-md text-center transition-all duration-300 border border-gray-200 hover:-translate-y-1 hover:shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mx-auto mb-6 text-2xl">
+                        🛡️</div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Security Vulnerability Check</h3>
+                    <p class="text-gray-600 leading-relaxed">Detect security vulnerabilities, SSL certificate status,
+                        and potential threats to protect your website and visitors.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-md text-center transition-all duration-300 border border-gray-200 hover:-translate-y-1 hover:shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mx-auto mb-6 text-2xl">
+                        ⚡</div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Speed & Performance Analysis</h3>
+                    <p class="text-gray-600 leading-relaxed">Analyze loading times, optimize images, and get performance
+                        insights to improve user experience and search rankings.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-md text-center transition-all duration-300 border border-gray-200 hover:-translate-y-1 hover:shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mx-auto mb-6 text-2xl">
+                        📱</div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Mobile & Accessibility Audit</h3>
+                    <p class="text-gray-600 leading-relaxed">Ensure your website works perfectly on all devices and
+                        meets accessibility standards for all users.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-12 lg:py-20 bg-gradient-to-br from-gray-50 to-gray-100" id="how-it-works">
+        <div class="max-w-6xl mx-auto px-5">
+            <h2 class="text-center text-3xl lg:text-4xl font-bold mb-4 text-gray-900">Simple 3-Step Process</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Get professional website analysis in
+                just three simple steps</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                <div class="text-center">
+                    <div
+                        class="w-16 h-16 bg-gray-900 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                        1</div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Enter URL</h3>
+                    <p class="text-gray-600">Simply paste your website URL into our analysis tool</p>
+                </div>
+                <div class="text-center">
+                    <div
+                        class="w-16 h-16 bg-gray-900 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                        2</div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">AI Analysis</h3>
+                    <p class="text-gray-600">Our AI performs comprehensive scans across SEO, security, and performance
+                    </p>
+                </div>
+                <div class="text-center">
+                    <div
+                        class="w-16 h-16 bg-gray-900 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                        3</div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Get Insights</h3>
+                    <p class="text-gray-600">Receive detailed reports with actionable recommendations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="py-12 lg:py-20" id="tools">
+        <div class="max-w-6xl mx-auto px-5">
+            <h2 class="text-center text-3xl lg:text-4xl font-bold mb-4 text-gray-900">Free AI-Powered Analysis Tools
+            </h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Professional-grade website analysis
+                tools, completely free and powered by advanced AI</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center mb-4 text-xl">🔍</div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-teal-100 text-teal-700 px-2 py-1 rounded-full text-xs font-medium">100%
+                            Free</span>
+                        <span
+                            class="bg-orange-100 text-orange-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free SEO Analyzer</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Complete on-page SEO analysis with keyword
+                        optimization, meta tag analysis, and content structure recommendations.</p>
+                    <button
+                        class="bg-gray-900 text-white px-6 py-3 mt-auto  border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
+                        onclick="startTool('seo')">Try Now</button>
+                </div>
+
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center mb-4 text-xl">🛡️
+                    </div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-teal-100 text-teal-700 px-2 py-1 rounded-full text-xs font-medium">100%
+                            Free</span>
+                        <span
+                            class="bg-orange-100 text-orange-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free Security Scanner</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Comprehensive vulnerability assessment including SSL
+                        checks, malware detection, and security best practices.</p>
+                    <button
+                        class="bg-gray-900 text-white px-6 py-3 mt-auto  border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
+                        onclick="startTool('security')">Try Now</button>
+                </div>
+
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center mb-4 text-xl">⚡</div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-teal-100 text-teal-700 px-2 py-1 rounded-full text-xs font-medium">100%
+                            Free</span>
+                        <span
+                            class="bg-orange-100 text-orange-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free Speed Tester</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Performance optimization insights with loading time
+                        analysis, image optimization, and Core Web Vitals assessment.</p>
+                    <button
+                        class="bg-gray-900 text-white px-6 py-3 mt-auto  border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
+                        onclick="startTool('speed')">Try Now</button>
+                </div>
+
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center mb-4 text-xl">📱</div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-teal-100 text-teal-700 px-2 py-1 rounded-full text-xs font-medium">100%
+                            Free</span>
+                        <span
+                            class="bg-orange-100 text-orange-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free Mobile Checker</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Responsive design testing across multiple device sizes
+                        with mobile usability recommendations.</p>
+                    <button
+                        class="bg-gray-900 text-white px-6 py-3 mt-auto border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
+                        onclick="startTool('mobile')">Try Now</button>
+                </div>
+
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center mb-4 text-xl">♿</div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-teal-100 text-teal-700 px-2 py-1 rounded-full text-xs font-medium">100%
+                            Free</span>
+                        <span
+                            class="bg-orange-100 text-orange-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free Accessibility Audit</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">WCAG compliance check with accessibility improvements
+                        and inclusive design recommendations.</p>
+                    <button
+                        class="bg-gray-900 text-white px-6 py-3 mt-auto border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
+                        onclick="startTool('accessibility')">Try Now</button>
+                </div>
+
+                <div
+                    class="flex flex-col bg-white p-8 rounded-2xl shadow-md transition-all duration-300 border border-gray-200 relative hover:-translate-y-1 hover:shadow-lg">
+
+                    <div class="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center mb-4 text-xl">📊</div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-teal-100 text-teal-700 px-2 py-1 rounded-full text-xs font-medium">100%
+                            Free</span>
+                        <span
+                            class="bg-orange-100 text-orange-700 px-2 py-1 rounded-full text-xs font-medium">AI-Powered</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900">Free Competitor Analysis</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Compare with competitors including SEO metrics,
+                        performance benchmarks, and improvement opportunities.</p>
+                    <button
+                        class="bg-gray-900 text-white px-6 mt-auto py-3 border-none rounded-lg font-semibold cursor-pointer transition-all duration-300 w-full hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
+                        onclick="startTool('competitor')">Try Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-12 lg:py-20 bg-gradient-to-br from-gray-50 to-gray-100">
+        <div class="max-w-6xl mx-auto px-5">
+            <h2 class="text-center text-3xl lg:text-4xl font-bold mb-4 text-gray-900">Why Choose PingUtil?</h2>
+            <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Professional website analysis made
+                accessible to everyone</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🚀</div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-gray-900">Instant Results</h3>
+                        <p class="text-gray-600 leading-relaxed">Get comprehensive analysis in under 30 seconds with our
+                            optimized AI algorithms</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🤖</div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-gray-900">AI-Powered</h3>
+                        <p class="text-gray-600 leading-relaxed">Advanced algorithms provide deep insights and
+                            intelligent recommendations</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">📊</div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-gray-900">Detailed Reports</h3>
+                        <p class="text-gray-600 leading-relaxed">Comprehensive analysis with actionable recommendations
+                            and priority rankings</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">💡</div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-gray-900">Expert Insights</h3>
+                        <p class="text-gray-600 leading-relaxed">Professional-grade analysis tools used by web
+                            developers and SEO experts</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🔒</div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-gray-900">Secure & Private</h3>
+                        <p class="text-gray-600 leading-relaxed">Your data is safe and never stored. All analysis is
+                            performed securely</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-2xl">🆓</div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2 text-gray-900">Completely Free</h3>
+                        <p class="text-gray-600 leading-relaxed">All AI-powered tools are free to use with no limits or
+                            hidden costs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 text-white">
+        <div class="max-w-6xl mx-auto px-5">
+            <!-- Top section with logo and social icons -->
+            <div class="py-8 border-b border-gray-800">
+                <div class="flex items-center justify-between ">
+                    <!-- Logo -->
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+                            <svg class="w-5 h-5 text-gray-900" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                            </svg>
+                        </div>
+                        <span class="text-xl font-semibold">PingUtil</span>
+                    </div>
+
+                    <!-- Social Icons -->
+                    <!-- <div class="flex items-center space-x-4">
+                      
+                        <a href="#" class="text-white hover:text-gray-400 transition-colors duration-200" aria-label="LinkedIn">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+
+                       
+                        <a href="#" class="text-white hover:text-gray-400 transition-colors duration-200" aria-label="X">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                            </svg>
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- Bottom section with copyright and links -->
+            <div class=" py-8">
+                <div
+                    class="flex flex-col md:flex-row md:items-center md:justify-between space-y-2 md:space-y-0 gap-4 lg:gap-0">
+                    <!-- Copyright -->
+                    <div class="text-md text-white">
+                        <span class="flex items-center">
+                            &copy;
+                            Copyright&nbsp;<span id="year"></span>, PingUtil
+                        </span>
+                    </div>
+
+                    <!-- Footer Links -->
+                    <ul class="flex items-center space-x-6 text-md">
+                        <li><a href="#features"
+                                class="text-white hover:text-gray-400 transition-colors duration-200">Features</a>
+                        </li>
+                        <li><a href="#tools"
+                                class="text-white hover:text-gray-400 transition-colors duration-200">Tools</a></li>
+                        <li><a href="#how-it-works"
+                                class="text-white hover:text-gray-400 transition-colors duration-200">How It
+                                Works</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <!-- <script>
+        function analyzeWebsite() {
+            const urlInput = document.getElementById('urlInput');
+            const analyzeText = document.getElementById('analyzeText');
+            const loadingSpinner = document.getElementById('loadingSpinner');
+
+            if (!urlInput.value.trim()) {
+                alert('Please enter a website URL');
+                return;
+            }
+
+            // Show loading state
+            analyzeText.style.display = 'none';
+            loadingSpinner.style.display = 'inline-block';
+
+            // Simulate analysis (replace with actual API call)
+            setTimeout(() => {
+                analyzeText.style.display = 'inline';
+                loadingSpinner.style.display = 'none';
+                alert('Analysis complete! (This is a demo)');
+            }, 3000);
+        }
+
+        function startTool(toolType) {
+            alert(`Starting ${toolType} analysis tool (This is a demo)`);
+        }
+    </script> -->
+</body>
+
+</html>

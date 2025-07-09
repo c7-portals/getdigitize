@@ -1,0 +1,17 @@
+{
+  "name": "pingutil-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tailwind:init": "tailwindcss init",
+    "tailwind:dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "tailwind:build": "NODE_ENV=production tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "description": ""
+}
