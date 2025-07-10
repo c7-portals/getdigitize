@@ -14,82 +14,12 @@ PingUtil offers a comprehensive suite of network diagnostic and monitoring tools
 - [DNS Lookup](https://www.pingutil.com/tools/dns): Resolve domain names and check DNS records
 - [Traceroute](https://www.pingutil.com/tools/traceroute): Map the network path to your server
 
-## Monitoring Tools
-
-- [Uptime Monitor](https://www.pingutil.com/tools/uptime): Track your website and server availability
-- [SSL Checker](https://www.pingutil.com/tools/ssl-checker): Verify SSL certificate validity and configuration
-- [Website Speed Test](https://www.pingutil.com/tools/speed-test): Analyze loading times and performance
-- [API Monitoring](https://www.pingutil.com/features/api): Monitor REST API endpoints for performance and uptime
-- [Network Diagnostics](https://www.pingutil.com/tools/diagnostics): Comprehensive network troubleshooting tools
-
-## Advanced Features
-
-- [Multi-location Monitoring](https://www.pingutil.com/features/global-monitoring): Test from multiple global locations
-- [Custom Alerts](https://www.pingutil.com/features/alerts): Get notified via email, SMS, or webhook
-- [Performance Metrics](https://www.pingutil.com/features/metrics): Historical data and performance trends
-- [Status Pages](https://www.pingutil.com/features/status-pages): Public status pages for your services
-- [Team Collaboration](https://www.pingutil.com/features/teams): Share access with your team members
-
-## Integration Options
-
-- [Developer API](https://www.pingutil.com/developers/api): Programmatic access to all monitoring features
-- [Webhooks](https://www.pingutil.com/developers/webhooks): Real-time notifications for monitoring events
-- [Slack Integration](https://www.pingutil.com/integrations/slack): Get alerts in your Slack channels
-- [Zapier](https://www.pingutil.com/integrations/zapier): Connect with thousands of other apps
-- [Custom Integrations](https://www.pingutil.com/enterprise): Tailored solutions for enterprise needs
-
-## Resources
-
-- [Documentation](https://www.pingutil.com/docs): Comprehensive guides and references
-- [Tutorials](https://www.pingutil.com/learn): Step-by-step monitoring guides
-- [Network Glossary](https://www.pingutil.com/glossary): Common networking terms explained
-- [Case Studies](https://www.pingutil.com/case-studies): Success stories from our users
-- [Blog](https://www.pingutil.com/blog): Latest trends in network monitoring
-
-## Crawler Instructions
-
-### Allowed Paths
-- /docs/
-- /learn/
-- /blog/
-- /case-studies/
-- /api/
-- /tools/
-
-### Rate Limiting
-- Maximum 30 requests per minute per IP
-- Respect Retry-After headers
-- Cache responses when possible
-
-## Content Usage Policy
-
-- Public documentation may be used for training AI models
-- Attribution to PingUtil with link to source is required
-- Do not use our content to create competing services
-- Commercial use requires prior written permission
-- Respect all rate limits and terms of service
 
 ## Sitemap
 
 - [Sitemap Index](https://www.pingutil.com/sitemap.xml)
 
-## Contact
 
-- For crawler-related inquiries: crawlers@pingutil.com
-- Technical support: support@pingutil.com
-- Business inquiries: business@pingutil.com
-- Security issues: security@pingutil.com
-- Partnership opportunities: partners@pingutil.com
-
-## Company
-
-- [About Us](https://www.pingutil.com/about)
-- [Pricing](https://www.pingutil.com/pricing)
-- [Careers](https://www.pingutil.com/careers)
-- [Terms of Service](https://www.pingutil.com/terms)
-- [Privacy Policy](https://www.pingutil.com/privacy)
-- [Security Policy](https://www.pingutil.com/security)
-- [Compliance](https://www.pingutil.com/compliance)
 
 ## Version
 
