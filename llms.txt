@@ -1,26 +1,42 @@
-# PingUtil
+# GetDigitize
 
-[PingUtil](https://www.pingutil.com) is a powerful network and server monitoring platform that provides real-time insights into your infrastructure's performance and availability. Our tools help IT professionals and businesses ensure their online services are always up and running optimally.
+[GetDigitize](https://getdigitize.com) is a cutting-edge digital solutions provider that transforms ideas into impactful digital experiences. We specialize in creating innovative digital strategies, stunning designs, and seamless executions that help businesses thrive in the digital landscape.
 
 ## Platform Overview
 
-PingUtil offers a comprehensive suite of network diagnostic and monitoring tools designed to help you maintain the health and performance of your digital infrastructure. From simple ping tests to advanced monitoring solutions, we've got you covered.
+GetDigitize offers a comprehensive suite of digital services designed to elevate your online presence. From creative design to digital strategy and execution, we provide end-to-end solutions tailored to your business needs. Our team of experts works closely with clients to deliver exceptional results that drive growth and engagement.
 
-## Core Features
+## Core Services
 
-- [Ping Test](https://www.pingutil.com/tools/ping): Check server response times and availability
-- [Network Monitor](https://www.pingutil.com/features/monitor): 24/7 monitoring with instant alerts
-- [Port Scanner](https://www.pingutil.com/tools/port-scanner): Check open ports and services
-- [DNS Lookup](https://www.pingutil.com/tools/dns): Resolve domain names and check DNS records
-- [Traceroute](https://www.pingutil.com/tools/traceroute): Map the network path to your server
+- **Digital Strategy**: Data-driven approaches to achieve your business goals
+- **UI/UX Design**: Intuitive and engaging user experiences
+- **Web Development**: Custom, responsive, and high-performance websites
+- **Brand Identity**: Memorable branding that tells your story
+- **Digital Marketing**: Targeted campaigns that deliver results
 
+## Our Process
+
+1. **Discovery**: Understanding your vision and requirements
+2. **Strategy**: Crafting a tailored digital roadmap
+3. **Design**: Creating visually stunning interfaces
+4. **Development**: Building robust digital solutions
+5. **Launch & Optimize**: Delivering and refining for success
 
 ## Sitemap
 
-- [Sitemap Index](https://www.pingutil.com/sitemap.xml)
+- [Home](https://getdigitize.com)
+- [About Us](https://getdigitize.com/about)
+- [Services](https://getdigitize.com/services)
+- [Portfolio](https://getdigitize.com/portfolio)
+- [Blog](https://getdigitize.com/blog/)
+- [Privacy Policy](https://getdigitize.com/privacy)
+- [Terms of Service](https://getdigitize.com/terms)
 
+##contact: 
 
+contact@getdigitize.com
 
 ## Version
+1.0.0
 
 Last Updated: 2025-07-08
