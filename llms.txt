@@ -24,13 +24,13 @@ GetDigitize offers a comprehensive suite of digital services designed to elevate
 
 ## Sitemap
 
-- [Home](https://getdigitize.com)
-- [About Us](https://getdigitize.com/about)
-- [Services](https://getdigitize.com/services)
-- [Portfolio](https://getdigitize.com/portfolio)
-- [Blog](https://getdigitize.com/blog/)
-- [Privacy Policy](https://getdigitize.com/privacy)
-- [Terms of Service](https://getdigitize.com/terms)
+- [Home](https://www.getdigitize.com/)
+- [Services](https://www.getdigitize.com/#services)
+- [Portfolio](https://www.getdigitize.com/#portfolio)
+- [About](https://www.getdigitize.com/#about)
+- [Blog](https://www.getdigitize.com/blog/)
+- [Privacy Policy](https://www.getdigitize.com/privacy.html)
+- [Terms of Service](https://www.getdigitize.com/terms.html)
 
 ##contact: 
 
@@ -39,4 +39,4 @@ contact@getdigitize.com
 ## Version
 1.0.0
 
-Last Updated: 2025-07-08
+Last Updated: 2025-07-23
